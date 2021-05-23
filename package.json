@@ -1,0 +1,25 @@
+{
+  "name": "webpack-gulp",
+  "version": "1.0.0",
+  "description": "A simple setup to Webpack, Babel and Gulp",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development gulp develop",
+    "build": "NODE_ENV=production gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-middleware": "^4.3.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-stream": "^6.1.2"
+  }
+}
